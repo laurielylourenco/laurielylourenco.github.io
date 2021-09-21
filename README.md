@@ -1,4 +1,4 @@
 # laurielylourenco.github.io
 
 
-meu sitezinho sendo construido ainda 
+meu portifolio sendo construído ainda 

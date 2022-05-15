@@ -20,10 +20,10 @@
 </head>
 
 <body class="d-flex h-100  text-white bg-dark">
-  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two!flex-column -->
 
 
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto ">
 
     <header class="mb-auto">
       <div>
@@ -49,8 +49,10 @@
           </div>
 
           <div class="col-12 col-lg-5 col-sm-7 text-center pt-5 mt-2 float-start">
-            <h4 class="typewriter ">Olá estranho!</h4>
-            <h3 class="topicos ">Eu sou a Lauriely</h3>
+            <h4><pre><code>var dev = [ <br>
+                    nome => "Meu nome Lauriely"
+
+                  ]</code> </pre> </h4>  
           </div>
         </div>
       </div>
@@ -59,7 +61,7 @@
         <div class="row mt-5" id="sobre">
           <h2 class="topicos text-center mt-2">Um pouquinho de mim</h2>
           <div class="col-12 col-lg-12 col-sm-12 mt-4 text-center">
-            <p>Tenho 19 anos, trabalho com programação
+            <p>Tenho 20 anos, trabalho com programação
               é estou cursando Ciência da computação na Universidade de Juiz de Fora,UFJF.
             </p>
             <p>
@@ -69,44 +71,46 @@
               Adoro assistir animes é escutar podcasts...
             </p>
           </div>
-          <!-- aqui fica imagens img/undraw_researching_22gp.svg -->
+          <!--  <h4 class="typewriter ">Olá estranho!</h4> aqui fica imagens img/undraw_researching_22gp.svg -->
         </div>
       </div>
 
-      <div class="col-xxl-8">
-        <div class="row mt-5 ">
+      <div class=" col-xxl-8">
+        <div class="row mt-5">
           <h2 class="topicos text-center mt-2">Meus conhecimentos até aqui ?</h2>
 
-          <div class="row mt-2">
-            <div class="tech col-lg-4 col-sm-4 col-4">
-              <img src="https://img.icons8.com/dusk/64/000000/php-logo.png" />
-              <img src="https://img.icons8.com/dusk/64/000000/javascript.png" />
+          
+          <div id="imageTech" class="mt-2 d-flex justify-content-center">
+
+            <div class="row">
+
+                <img id="item" class="col-lg-4 col-md-4 col-sm-4 col-4"  src="https://img.icons8.com/dusk/64/000000/php-logo.png" />
+                <img id="item"  class="col-lg-4 col-md-4 col-sm-4 col-4" src="https://img.icons8.com/dusk/64/000000/javascript.png" />
+                <img class="col-lg-4 col-md-4 col-sm-4 col-4" src="https://img.icons8.com/dusk/64/000000/sql.png" />
+               
             </div>
-            <div class="tech col-lg-8 col-sm-8 col-8">
+
+          </div>
+        
+
+
+          <div class="row  justify-content-center ">
+        
+            <div class="tech col-lg-8 col-sm-8 col-8  align-self-center">
               Atualmente desenvolvo através das linguagens PHP é JavaScript, no caso de JavaScript englobando
               multiplataforma Node.js é biblioteca Jquery.
-              Em PHP estudei é fiz projetos no github com framework Laravel. Por causa na faculdade entrei contato com
-              linguagens C é C++ por enquanto apenas conhecimentos básicos.
-            </div>
-          </div>
+              Em PHP estudei é fiz projetos no github com framework Laravel. Por causa na faculdade entrei contato com linguagens C é C++ por enquanto apenas conhecimentos básicos.
+              
 
-          <div class="row mt-4">
-            <div class="tech col-lg-4 col-sm-4 col-4">
-
-              <img src="https://img.icons8.com/dusk/64/000000/sql.png" />
-              <img src="https://img.icons8.com/dusk/64/000000/github.png" />
-
-            </div>
-
-            <div class="tech col-lg-8 col-sm-8 col-8">
               Já estudei o paradigma de programação POO tenho projeto baseado no meu github,consigo fazer tarefas com
-              consumo de API's.
-              Além disso, entrando na parte de banco de dados, compreendo conceitos modelagem de dados, posso trabalhar
-              com SQL atráves Postgresql é MySql, na parte versionamento de códigos
+              consumo de API's.Além disso, entrando na parte de banco de dados, compreendo conceitos modelagem de dados, posso trabalhar com SQL atráves Postgresql é MySql, na parte versionamento de códigos
               apenas o Git.
-            </div>
+
+            </div> 
 
           </div>
+
+          
 
         </div>
       </div>
@@ -162,6 +166,9 @@
           <h2 class="text-center topicos">Contato</h2>
           <p class="lead text-center">Sinta-se a vontande para mandar mensagens</p>
         </div>
+
+
+
         <div class="row justify-content-center ">
           <!--<img class="align-self-center" src="https://img.icons8.com/dusk/64/000000/secured-letter--v2.png" />-->
           <div class="col-lg-5  mx-2 align-self-center">
@@ -194,12 +201,6 @@
 
 
 
-  <!--
-
- <a href="https://icons8.com/icon/gFJQPhB6qokP/mensagem">Mensagem icon by Icons8</a>
-    <a href="https://icons8.com/icon/42823/linkedin">LinkedIn icon by Icons8</a>
-
- -->
 
   </div>
 

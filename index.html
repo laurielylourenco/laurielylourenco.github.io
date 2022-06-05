@@ -19,7 +19,7 @@
   <link href="est.css" rel="stylesheet">
 </head>
 
-<body class="d-flex h-100  text-white bg-dark">
+<body class="d-flex h-100  text-white bg-dark"  onload="typeWriter()">
   <!-- Optional JavaScript; choose one of the two!flex-column -->
 
 
@@ -42,19 +42,17 @@
 
     <div class="container">
       <div class="col-xxl-8">
-        <div class="row flex-column-reverse flex-lg-row flex-md-row mt-5">
+        <div class="row flex-column-reverse flex-lg-row flex-md-row mt-2">
+
           <div class="col-sm-5 col-12 col-lg-7 mt-2 float-end">
-            <img src="img/Open Peeps - Bust (2).png" class="d-block  mx-lg-auto mx-auto img-fluid"
-              alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <img src="img/avatar1.png" class="d-block  mx-lg-auto mx-auto img-fluid" alt="lauriely avatar 1" width="600" height="300" loading="lazy">
           </div>
 
-          <div class="col-12 col-lg-5 col-sm-7 text-center pt-5 mt-2 float-start">
-            <h4><pre><code>var dev = [ <br>
-                    nome => "Meu nome Lauriely"
-
-                  ]</code> </pre> </h4>  
+          <div class=" col-12 col-lg-5 col-sm-7 text-center pt-3 mt-2 float-start ">
+            <h4 id="demo" class="sdd "></h4>  
           </div>
         </div>
+
       </div>
 
       <div class="col-xxl-8 ">
@@ -83,35 +81,24 @@
           <div id="imageTech" class="mt-2 d-flex justify-content-center">
 
             <div class="row">
-
                 <img id="item" class="col-lg-4 col-md-4 col-sm-4 col-4"  src="https://img.icons8.com/dusk/64/000000/php-logo.png" />
                 <img id="item"  class="col-lg-4 col-md-4 col-sm-4 col-4" src="https://img.icons8.com/dusk/64/000000/javascript.png" />
-                <img class="col-lg-4 col-md-4 col-sm-4 col-4" src="https://img.icons8.com/dusk/64/000000/sql.png" />
+                <img id="item" class="col-lg-4 col-md-4 col-sm-4 col-4" src="https://img.icons8.com/dusk/64/000000/sql.png" />
                
             </div>
-
           </div>
         
-
 
           <div class="row  justify-content-center ">
-        
-            <div class="tech col-lg-8 col-sm-8 col-8  align-self-center">
-              Atualmente desenvolvo através das linguagens PHP é JavaScript, no caso de JavaScript englobando
-              multiplataforma Node.js é biblioteca Jquery.
-              Em PHP estudei é fiz projetos no github com framework Laravel. Por causa na faculdade entrei contato com linguagens C é C++ por enquanto apenas conhecimentos básicos.
-              
-
-              Já estudei o paradigma de programação POO tenho projeto baseado no meu github,consigo fazer tarefas com
+              <p class="text-center">Atualmente desenvolvo através das linguagens PHP é JavaScript, no caso de JavaScript englobando
+              multiplataforma Node.js é biblioteca Jquery.Em PHP estudei é fiz projetos no github com framework Laravel. Por causa na faculdade entrei contato com linguagens C é C++ por enquanto apenas conhecimentos básicos.
+              </p>
+              <p class="text-center">Já estudei o paradigma de programação POO tenho projeto baseado no meu github,consigo fazer tarefas com
               consumo de API's.Além disso, entrando na parte de banco de dados, compreendo conceitos modelagem de dados, posso trabalhar com SQL atráves Postgresql é MySql, na parte versionamento de códigos
               apenas o Git.
-
-            </div> 
+              </p>
 
           </div>
-
-          
-
         </div>
       </div>
 
@@ -123,7 +110,7 @@
 
           <div class="card border-light bg-dark mt-3">
             <div class="col-12 col-lg-12">
-              <p>Atual: Analista de suporte junior na <a href="" class="link-light">Pluri Sistemas</a></p>
+              <p>Atual: Desenvolvedora junior na <a href="" class="link-light">Pluri Sistemas</a></p>
             </div>
             <div class="col-12  col-lg-12">
               <p>Desempenho o papel de ajudar no desenvolvimeto é manutenção do sistema</p>
@@ -136,7 +123,7 @@
       <div class="col-xxl-8">
         <div class="row mt-5">
           <h2 class="topicos text-center">Educação</h2>
-        <div class="col">
+        <div class="col-sm-12">
             <div class="p-3 card border-light bg-dark">
                   <div class="col-12  col-sm-12 col-lg-12">
                       <p>Ciência da Computação - 2020/12 - presente</p>
@@ -147,7 +134,8 @@
                 
             </div>
         </div>
-        <div class="col">
+
+        <div class="col-sm-12 mt-2">
               <div class="p-3 card border-light bg-dark">
                 <div class="col-12 col-sm-12 col-lg-12">
                    <p>Técnica de informatica - 2018/06 ate 2019/12 </p>
@@ -232,6 +220,21 @@
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript">
+    var i = 0;
+    var txt = 'var oi = "Oii!! tudo bem?";';
+    var speed = 200;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+
+
   </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->

@@ -1,4 +1,4 @@
 # laurielylourenco.github.io
 
+Contruido com daisyui.
 
-meu portifolio sendo construído ainda 

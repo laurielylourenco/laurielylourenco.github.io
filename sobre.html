@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+    <style>
+        body {
+            padding-top: 20px;
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .section-title {
+            margin-top: 40px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            display: flex;
+            align-items: center;
+        }
+
+        .card-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .social-links a {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .container p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: white;
+        }
+
+        footer p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-code-slash"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container mt-5">
+        <h1 class="mb-4">Sobre</h1>
+        <div class="card mb-4">
+            <div class="card-body">
+                <img src="./img/lauri.png" alt="Lauriely Lourenço" class="profile-img me-4">
+                <div>
+                    <h3 class="card-title mb-0">Lauriely Lourenço</h3>
+                    <p class="card-text">Desenvolvedora Backend <a href="#">Pluri Sistemas</a></p>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <p>Sou desenvolvedora full-stack em uma fábrica de software há três anos,
+            quero cada vez mais ter
+            um foco em backend. Atualmente, estou cursando <strong>Ciência da Computação</strong> na UFJF no período
+            noturno, e sinto que estou apenas no início da minha jornada no mundo do desenvolvimento.
+            <strong>Tenho uma paixão crescente por participar de projetos complexos é buscar melhorar</strong>
+        </p>
+
+        <section>
+            <h2 class="section-title">Experiência</h2>
+            <div class="mb-3">
+                <h4>Full Stack @<a href="#">Pluri Sistemas</a></h4>
+                <p><small>Fev 2021 - Today</small></p>
+                <p>Atuação em um projeto de chat ominichannel, envolvimento desde a concepção até a resolução de problemas
+                 e depuração de erros, garantindo a estabilidade e o bom funcionamento do sistema. </p>
+            </div>
+        </section>
+
+        <!-- Side Project Section -->
+        <section>
+            <h2 class="section-title">Projetos Alternativos</h2>
+            <div class="mb-3">
+                <h4>Escrever para <a href="#">Dev.to</a></h4>
+                <p><small></small></p>
+                <p>Se comunicar é necessario! Sempre tive dentro de mim uma vontade de ajudar open source essa tem sido maneira que tenho encotrado
+                para passar algum conhecimento que tenho aprendido!
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2 class="section-title">Educação</h2>
+            <div class="mb-3">
+                <h4>Ciencia da Computação @<a href="#">UFJF</a></h4>
+                <p><small>Dez 2020 - Today</small></p>
+            </div>
+
+            <div class="mb-3">
+                <h4>Tecnica em Informática @<a href="#">IFET</a></h4>
+                <p><small>Ago 2018 - Dez-2019</small></p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Hard Skills</h5>
+                    <ul>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>Node.js</li>
+                        <li>Laravel</li>
+                        <li>Linux</li>
+                        <li>PostgreSQL</li>
+                        <li>SQL</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Soft Skills</h5>
+                    <ul>
+                        <li>Responsável</li>
+                        <li>Resolutiva</li>
+                        <li>Joga para equipe</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="text-center">
+        <p>&copy; 2024 Lauriely</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

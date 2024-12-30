@@ -1,0 +1,61 @@
+.hero {
+    padding: 100px 0;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    background-image: url('../../img/5.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero h1,
+.hero p {
+    z-index: 5;
+    position: relative;
+}
+
+.hero .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    z-index: 5;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #f0ad4e;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    color: white;
+    background-image: url('../../img/5.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}

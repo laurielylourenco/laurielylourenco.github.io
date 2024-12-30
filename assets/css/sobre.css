@@ -1,0 +1,83 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.section-title {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('../../img/5.gif');
+    background-size: 60%;
+    background-position: center;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #f0ad4e;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    color: white;
+    background-image: url('../../img/5.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
